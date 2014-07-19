@@ -9,7 +9,7 @@
 >	    return a+b
 >	
 >	with QPS(1000, add, 1, 2) as qps:
->	    print qps.qps
+>	    pass
 >	```
 
 
