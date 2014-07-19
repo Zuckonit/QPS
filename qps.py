@@ -4,14 +4,13 @@ import time
 
 '''
 Example::
+    from qps import QPS
+
     def add(a, b):
         return a+b
 
     with QPS(1000, add, 1, 2) as qps:
-        # Put whatever logic you want here.
-        # ``for`` loops are great here for timing things that are very fast.
         print qps.qps
-
 
 '''
 
